@@ -348,11 +348,9 @@ select {
 
 footer {
     height: 300px;
-    border: 1px solid red;
 }
 
 .footer-container {
-    border: 1px solid green;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -361,7 +359,6 @@ footer {
 }
 
 .footer-conteudo {
-    border: 1px solid blue;
     text-align: center;
     color: var(--secondary);
     padding: 10px;
