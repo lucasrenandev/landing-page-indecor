@@ -1,5 +1,55 @@
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 1000px) and (max-width: 1024px) {
+    header {
+        height: 100%;
+    }
+
+    .right-content {
+        padding: 35px;
+    }
+
+    form {
+        
+       
+    }
+}
+
+@media screen and (min-width: 830px) and (max-width: 1000px) {
+    header {
+        height: 100%;
+    }
+
+    .section-1-content {
+        margin-top: 30px;
+    }
+
+    #section-2 {
+        margin-top: -20px;
+    }
+
+    .content-image {
+        margin: 0px 10px;
+    }
+
+    .right-content {
+        padding: 35px;
+    }
+
+    #detalhes-1 img {
+        display: none;
+    }
+
+    #descricao-1 h3 {
+        padding: 0;
+    }
+
+    #descricao-2 {
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 830px) {
     
     header {
         display: flex;
