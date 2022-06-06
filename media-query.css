@@ -4,12 +4,18 @@
     header {
         display: flex;
         flex-direction: column;
+        width: 100%;
         height: 100%;
         padding: 30px;
     }
 
     .header-left-side {
+        width: 100%;
         margin-bottom: 20px;
+    }
+
+    .header-right-side {
+        width: 100%;
     }
 
     .img-none {
@@ -25,7 +31,6 @@
     }
 
     .section-1-content {
-        width: 100%;
         flex-direction: column;
         align-items: center;
         margin-top: 10px;   
