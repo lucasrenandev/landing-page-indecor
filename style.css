@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+/* configuração global */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    padding-bottom: 400px;
+}
+
+/* ==== variáveis css ==== */
+
+:root {
+    --primary: #eb1ccc;
+    --secondary: #95989a;
+    --text-color: #fff;
+    --text-secondary: #000;
+    --text-tertiary: #5d5d5d;
+}
+
+/* ==== header ==== */
+
+header {
+    height: 85vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('img/hrz-5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+/* ==== header left side ==== */
+
+.header-left-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-text {
+    max-width: 400px;
+    padding: 12px;
+}
+
+.left-text h1 {
+    color: var(--primary);
+    font-size: 3.2em;
+    margin-bottom: 50px;
+}
+
+.left-text span {
+    color: var(--text-color);
+    font-size: 1.1em;
+}
+
+.left-text p:nth-child(2) {
+    font-size: 2.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text-color);
+    margin-bottom: 40px;
+}
+
+.left-text p:nth-child(4) {
+    color: var(--primary);
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+/* ==== header right side ==== */
+
+.header-right-side {
+    flex: 1;
+}
+
+.right-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-content button {
+    display: block;
+    margin: 6px auto;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--primary);
+    color: var(--text-color);
+    font-size: 0.8em;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.right-content button:hover {
+    opacity: 1;
+}
+
+form {
+    max-width: 300px;
+    background-color: var(--secondary);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form h2 {
+    font-size: 1.7em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-input label {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--text-tertiary);
+    margin-bottom: 5px;
+}
+
+input, select {
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 0.9em;
+}
+
+select {
+    height: 38px;
+}
+
+/* ==== section 1 ==== */
+
+#section-1 {
+    height: 600px;
+}
+
+#section-1 h2 {
+    background-color: var(--secondary);
+    padding: 60px;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.section-1-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content-image {
+    max-width: 300px;
+    margin: 0 20px;
+}
+
+.content-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.content-image p {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+    color: var(--secondary);
+}
+
+/* ==== section 2 ==== */
+
+#section-2 {
+    height: 450px;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('img/hrz-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.section-2-address {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.section-2-address i {
+    font-size: 80px;
+    color: var(--primary);
+}
+
+.address-event {
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+    font-size: 1.6em;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+}
+
+.section-2-destaque {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-destaque {
+    max-width: 400px;
+    padding: 10px;
+}
+
+.texto-destaque h3 {
+    color: var(--primary);
+    font-size: 3em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.texto-destaque p {
+    color: var(--text-color);
+    line-height: 28px;
+}
+
+/* ==== section detalhes ==== */
+
+#section-detalhes {
+    max-width: 80%;
+    margin: 50px auto;
+}
+
+.detalhes {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.detalhes img {
+    width: 50%;
+}
+
+.descricao {
+    width: 100%;
+}
+
+.descricao h3 {
+    font-size: 2.2em;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+#descricao-1 h3 {
+    font-size: 3.3em;
+    font-weight: 700;
+    padding-left: 70px;
+}
+
+#descricao-2 {
+    padding-left: 50px;
+}
+
+#descricao-3 {
+    padding-left: 70px;
+}
+
+.descricao ul {
+    list-style-position: inside;
+}
+
+.descricao ul li {
+    margin-bottom: 8px;
+}
+
+.descricao ul li:last-child {
+    font-weight: 700;
+}
