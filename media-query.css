@@ -1,5 +1,6 @@
 
-@media screen and (min-width: 1000px) and (max-width: 1024px) {
+@media screen and (min-width: 1000px) {
+
     header {
         height: 100%;
     }
@@ -8,13 +9,19 @@
         padding: 35px;
     }
 
-    form {
-        
-       
+    #detalhes-1 img {
+        display: none;
     }
+
+    #detalhes-1 h3 {
+        padding: 0;
+        text-align: center;
+    }
+
 }
 
 @media screen and (min-width: 830px) and (max-width: 1000px) {
+
     header {
         height: 100%;
     }
