@@ -206,7 +206,7 @@ select {
 }
 
 .section-2-address i {
-    font-size: 80px;
+    font-size: 5em;
     color: var(--primary);
 }
 
