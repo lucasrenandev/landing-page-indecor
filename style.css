@@ -1,16 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
-/* configuração global */
+/* ==== configuração global ==== */
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-}
-
-body {
-    padding-bottom: 400px;
 }
 
 /* ==== variáveis css ==== */
@@ -46,23 +42,23 @@ header {
     align-items: center;
 }
 
-.left-text {
+.left-content {
     max-width: 400px;
     padding: 12px;
 }
 
-.left-text h1 {
+.left-content h1 {
     color: var(--primary);
     font-size: 3.2em;
     margin-bottom: 50px;
 }
 
-.left-text span {
+.left-content span {
     color: var(--text-color);
     font-size: 1.1em;
 }
 
-.left-text p:nth-child(2) {
+.left-content p:nth-child(2) {
     font-size: 2.2em;
     font-weight: 700;
     text-transform: uppercase;
@@ -70,7 +66,7 @@ header {
     margin-bottom: 40px;
 }
 
-.left-text p:nth-child(4) {
+.left-content p:nth-child(4) {
     color: var(--primary);
     font-size: 1.1em;
     font-weight: 700;
@@ -198,6 +194,7 @@ select {
     background-position: center;
     background-size: cover;
     display: flex;
+    flex-flow: row wrap;
 }
 
 .section-2-address {
@@ -285,7 +282,7 @@ select {
 }
 
 #descricao-3 {
-    padding-left: 70px;
+    padding-left: 100px;
 }
 
 .descricao ul {
@@ -297,5 +294,92 @@ select {
 }
 
 .descricao ul li:last-child {
+    font-weight: 700;
+}
+
+
+/* ==== section increva-se ==== */
+
+#section-inscreva-se {
+    margin-top: 50px;
+    height: 350px;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('img/hrz-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-flow: row wrap;
+}
+
+.conteudo-centro {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.centro {
+    text-align: center;
+    padding: 10px;
+}
+
+.centro h3 {
+    font-size: 2.2em;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 30px;
+}
+
+.centro button {
+    width: 85%;
+    height: 50px;
+    font-size: 1.3em;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: var(--primary);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ==== FOOTER ==== */
+
+footer {
+    height: 300px;
+    border: 1px solid red;
+}
+
+.footer-container {
+    border: 1px solid green;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-conteudo {
+    border: 1px solid blue;
+    text-align: center;
+    color: var(--secondary);
+    padding: 10px;
+}
+
+.footer-conteudo h4 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-conteudo p:nth-child(2) {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+
+}
+
+.footer-conteudo span {
+    font-size: 1.1em;
     font-weight: 700;
 }
