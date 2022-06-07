@@ -101,12 +101,7 @@ header {
     font-size: 0.8em;
     font-weight: 500;
     text-transform: uppercase;
-    cursor: pointer;
-    opacity: 0.9;
-}
-
-.right-content button:hover {
-    opacity: 1;
+    cursor: pointer;   
 }
 
 /* ==== FORM ==== */
@@ -283,7 +278,7 @@ select {
 }
 
 #descricao-2 {
-    padding-left: 50px;
+    padding-left: 70px;
 }
 
 #descricao-3 {
