@@ -1,6 +1,9 @@
+
+/* ==== FONTE IMPORTADA, GOOGLE FONTS ==== */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
-/* ==== configuração global ==== */
+/* ==== CONFIGURAÇÃO GLOBAL ==== */
 
 * {
     margin: 0;
@@ -9,7 +12,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/* ==== variáveis css ==== */
+/* ==== VARIÁVEIS CSS ==== */
 
 :root {
     --primary: #eb1ccc;
@@ -19,7 +22,7 @@
     --text-tertiary: #5d5d5d;
 }
 
-/* ==== header ==== */
+/* ==== HEADER ==== */
 
 header {
     height: 85vh;
@@ -32,7 +35,7 @@ header {
     flex-flow: row wrap;
 }
 
-/* ==== header left side ==== */
+/* ==== HEADER LEFT SIDE ==== */
 
 .header-left-side {
     flex: 1;
@@ -72,7 +75,7 @@ header {
     font-weight: 700;
 }
 
-/* ==== header right side ==== */
+/* ==== HEADER RIGHT SIDE ==== */
 
 .header-right-side {
     flex: 1;
@@ -105,6 +108,8 @@ header {
 .right-content button:hover {
     opacity: 1;
 }
+
+/* ==== FORM ==== */
 
 form {
     max-width: 300px;
@@ -145,7 +150,7 @@ select {
     height: 38px;
 }
 
-/* ==== section 1 ==== */
+/* ==== SECTION 1 ==== */
 
 #section-1 {
     height: 600px;
@@ -185,7 +190,7 @@ select {
     color: var(--secondary);
 }
 
-/* ==== section 2 ==== */
+/* ==== SECTION 2 ==== */
 
 #section-2 {
     height: 450px;
@@ -245,7 +250,7 @@ select {
     line-height: 28px;
 }
 
-/* ==== section detalhes ==== */
+/* ==== SECTION DETALHES ==== */
 
 #section-detalhes {
     max-width: 80%;
@@ -298,7 +303,7 @@ select {
 }
 
 
-/* ==== section increva-se ==== */
+/* ==== SECTION INSCREVA-SE ==== */
 
 #section-inscreva-se {
     margin-top: 50px;
