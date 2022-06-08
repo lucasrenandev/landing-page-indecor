@@ -148,7 +148,7 @@ select {
 /* ==== SECTION 1 ==== */
 
 #section-1 {
-    height: 600px;
+    height: 570px;
 }
 
 #section-1 h2 {
@@ -194,7 +194,6 @@ select {
     background-position: center;
     background-size: cover;
     display: flex;
-    flex-flow: row wrap;
 }
 
 .section-2-address {
