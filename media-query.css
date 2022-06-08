@@ -147,6 +147,7 @@
 }
 
 @media screen and (max-width: 300px) {
+    
     .left-content h1 {
         text-align: center;
     }
