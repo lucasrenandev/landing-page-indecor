@@ -107,7 +107,7 @@ header {
 /* ==== FORM ==== */
 
 form {
-    max-width: 330px;
+    max-width: 320px;
     background-color: var(--secondary);
     padding: 22px;
     border-radius: 5px;
