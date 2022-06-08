@@ -145,3 +145,26 @@
         margin-top: -20px;
     }
 }
+
+@media screen and (max-width: 300px) {
+    .left-content h1 {
+        text-align: center;
+    }
+
+    .left-content p:nth-child(2) {
+        text-align: center;
+        font-size: 1.9em;
+    }
+
+    #descricao-1 h3 {
+        font-size: 2.7em;
+    }
+
+    .texto-destaque h3 {
+        font-size: 2.8em;
+    }
+
+    .centro button {
+        font-size: 1em;
+    }
+}
