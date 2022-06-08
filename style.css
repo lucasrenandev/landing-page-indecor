@@ -306,7 +306,6 @@ select {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
 }
 
 .conteudo-centro {
@@ -315,7 +314,6 @@ select {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .centro {
@@ -372,7 +370,6 @@ footer {
 .footer-conteudo p:nth-child(2) {
     font-size: 1.3em;
     margin-bottom: 20px;
-
 }
 
 .footer-conteudo span {
